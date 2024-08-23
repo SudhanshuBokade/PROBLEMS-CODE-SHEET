@@ -40,6 +40,8 @@ int main()
         if(it != ms.end())
         {
             result += items[i].second ;
+
+            
             ms.erase(it);
         } 
     }
